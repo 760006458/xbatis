@@ -12,7 +12,7 @@ public class Configuration {
     private static ResourceBundle config;
 
     static {
-        config = ResourceBundle.getBundle("config");
+        config = ResourceBundle.getBundle("v1/config");
     }
 
     public <T> T newProxyInstance(Class<T> c, final XSqlSession session) {
